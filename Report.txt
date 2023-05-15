@@ -1,0 +1,17 @@
+Welcome to the report after your company got hacked. Here are the steps I have taken to achive this.
+-----------------------------------------------------------------------------------------------------
+
+1. I done RECON (reconasince) using mainly OSINT techneiques (osint = Open source intel)
+Here is what I found with my OSINT RECON
+
+(Osint recon findings):
+
+
+
+
+
+
+
+
+
+
