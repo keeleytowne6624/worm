@@ -29,3 +29,4 @@ for target in targets:
         client.close()
     except Exception as e:
         print(f"Failed to exploit {target}: {e}")
+
