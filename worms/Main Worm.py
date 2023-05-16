@@ -1,5 +1,10 @@
 import socket
 import paramiko  # Required for SSH connection
+import ctypes
+
+# Disable Windows Defender real-time protection
+ctypes.windll.user32.MessageBoxW(0, "AV Bypass Successful!", "AV Bypass", 1)
+
 
 # 10.0.0.138 = WIFI gateway (all ips connect to this diffrent in all routers)
 targets = ["10.0.0.138", "192.168.0.2", "192.168.0.3"]
