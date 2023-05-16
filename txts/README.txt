@@ -3,6 +3,7 @@ site used: chatgpt
 Promt used (Do a little bit of own talking to get it to work):
 
 Promt Link: www.jailbreakchat.com/prompt/a07a2dfe-a363-4682-bc4d-3a2905b7efd0
+promt two: www.jailbreakchat.com/prompt/6b973d4e-d792-4ad3-830b-f7e9bc6a9a80
 
 
 
