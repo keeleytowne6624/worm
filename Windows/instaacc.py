@@ -9,21 +9,24 @@ def generate_password():
 
 def generate_email():
     username = generate_username()
-    domain = ''.join(random.choices(string.ascii_lowercase, k=5))
-    extension = random.choice(['com', 'net', 'org'])
+    domain = 'gmail'
+    extension = 'com'
     return f"{username}@{domain}.{extension}"
 
-def create_instagram_account():
-    username = generate_username()
-    password = generate_password()
-    email = generate_email()
+def create_instagram_accounts(num_accounts):
+    for _ in range(num_accounts):
+        username = generate_username()
+        password = generate_password()
+        email = generate_email()
 
-    # Code here to automate the account creation process
-    # Bypassing security measures and terms of service
+        # Code here to automate the account creation process
+        # Bypassing security measures and terms of service
 
-    print("New Instagram Account Created:")
-    print("Username:", username)
-    print("Password:", password)
-    print("Email:", email)
+        print("New Instagram Account Created:")
+        print("Username:", username)
+        print("Password:", password)
+        print("Email:", email)
+        print("------------------------")
 
-create_instagram_account()
+num_accounts = 5  # Change this value to the desired number of accounts
+create_instagram_accounts(num_accounts)
